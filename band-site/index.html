@@ -10,23 +10,26 @@
     <style>
         nav {
             display: flex;
+            flex: 1;
             justify-content: space-between;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             border: 2px ridge black;
             padding: 10px;
             align-items: center;
             font-size: 36px;
-        }
-        .background-home {
-            justify-content: center;
-            display: flex;
-            z-index: -1;
-            opacity: 50%;
-            margin: 0;
-            
+        }                 
 
         }
-        
+        .bg-image {
+            display: flex;
+            width: auto;
+            justify-content: center;
+            align-items: center;
+            opacity: 50%;
+            z-index: -1;
+            margin: 0;
+
+        }
         
 
     </style>
@@ -41,8 +44,8 @@
         <a href="..">Gallery</a>
         <a href="..">Upcoming</a>
     </nav>
-    <div class="background-home"><img src="../band-site/images/index-background.jpg"></div>
-
+   
+    <div class="bg-image"><img src="../band-site/images/index-background.jpg"></div>
 
 
     
