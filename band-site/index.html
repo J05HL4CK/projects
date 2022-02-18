@@ -25,6 +25,7 @@
             background-image: url(./images/index-background.jpg);
             background-repeat: no-repeat;
             background-size: cover;
+            flex: 1;
             
         }  
         .navbar {
@@ -50,7 +51,7 @@
             transition: 0.8s ease-in-out;
         }
         .about {
-            flex: content;
+            display: flex;
             box-sizing: border-box;
             border: 1px solid  rgba(102, 51, 153, 0.575);
             margin-left: 280px;
@@ -62,6 +63,7 @@
             z-index: 1;
             background-color: rgba(47, 79, 79, 0.678);
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: relative;
             
             
             
@@ -80,6 +82,7 @@
         .about__photo {
             transition: 3s ease-in-out;
         }   
+     
         
 
         
@@ -95,7 +98,8 @@
         <img class="nav-logo" src="../band-site/images/index-navlogo.png" width="313px" alt="shpongled"> 
         <a class="navbar" href="..">Gallery</a>
         <a class="navbar" href="..">Contact</a>
-    </nav>  
+    </nav>
+    
     <div class="about">
         <article>
         <h1>Are you Shpongled?</h1>
