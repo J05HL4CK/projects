@@ -79,6 +79,7 @@
             justify-content: space-around;
             align-items: center;
 
+
         }
         div.members {
             display: flex;
@@ -95,6 +96,7 @@
             border: 2px solid white;
             padding: 14px;
             margin: 10px;
+            border-radius: 12%;
 
            
 
@@ -105,6 +107,10 @@
         #raja {
             order: 2;
 
+        }
+        #biog-photos {
+            height: 700px;
+            width: 500px;
         }
 
 
@@ -133,9 +139,11 @@
     </div>
     
     <div class="biog">
-        <article>
+        <article id="biog-article">
             <h2>Artists Bio</h2>
-            <p>some text about the band</p>
+            <p>"Psychedelic duo Simon Posford and Raja Ram are Shpongle, an ambient techno/trance project
+                 formed in 1996 after the pair viewed a solar eclipse in India. After that event, they entered
+                  the studio and attempted to duplicate the experience in sonic form." - <a href="https://www.allmusic.com/artist/shpongle-mn0000038210/biography"><strong>Steve Huey</strong></a></p>
         </article>    
     </div>
     <div class="members">
@@ -144,7 +152,7 @@
             <li>
             <article>
                 <h2>Simon Posford</h2>
-            <img src="" alt="Simon Posford">
+            <img id="biog-photos" src="./images/biog-simon.jpg" alt="Simon Posford">
             <figcaption>Simon Posford</figcaption>
             <p>about simon</p>
 
@@ -155,7 +163,7 @@
             <li>
             <article>
                 <h2>Raja Ram</h2>
-            <img src="" alt="Raja Ram">
+            <img id="biog-photos" src="./images/biog-raja.jpg" alt="Raja Ram">
             <figcaption>Raja Ram</figcaption>
             <p>about Raja</p>
 
