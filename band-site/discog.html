@@ -8,6 +8,14 @@
     
     <title>D i s c o g</title>
     <style>
+        body {
+            display: flex;
+            flex-direction: column;
+          align-items: center;
+          background-color: rgba(7, 0, 18, 1) ;
+          text-align: center;
+          justify-content: center;
+        }
         nav {
             display: flex;
             flex: 1;
@@ -43,16 +51,70 @@
             transform: scale(1.5);
             transition: 0.8s ease-in-out;
         }
+        #heading{
+            font-size: xx-large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: azure;
+            display: flex;
+            flex-direction: column;
+
+        }
+        #discog-logo__pic {
+            width: auto;
+            height: 400px;
+            z-index: -1;
+            margin-bottom: 0;
+        }
+        .cover {
+            width: 550px;
+            height: 550px;
+            border-radius: 16%;
+        }
+        div.album-list {
+            display: flex;
+            gap: 35px;
+        }
+        ol {
+            color: azure;
+            list-style: none;
+            display: contents;
+
+        }
+        #album1,
+        #album2,
+        #album3 {
+            border: 4px double azure;
+            padding: 10px;
+            
+        }
+        .to-top {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        #return-top {
+            
+            color: azure;
+            font-size: xx-large;
+            display: flex;
+            justify-content: center;
+            background-color: cornflowerblue;
+            height: 35px;
+            width: 37px;
+            border-radius: 3%;
+        }
+
+        
 
 
     </style>
 </head>
 <body>
+    <a name="top"></a>
     <nav>
         <a class="navbar" href="./biog.html">Biography</a>
-        <img class="nav-logo" src="../band-site/images/index-navlogo.png" width="313px" alt="shpongled"> 
-        <a class="navbar" href="./discog.html">Discography</a>
-        
+        <a href="./index.html"><img class="nav-logo" src="../band-site/images/index-navlogo.png" width="313px" alt="shpongled"></a> 
+        <a class="navbar" href="./index.html">Home</a>       
         
     </nav>
     <div id="discog-logo">
@@ -66,7 +128,7 @@
             <div id="album1">
                 <li>
                     <h2>Ineffable Mysteries from Shpongleland</h2>
-                    <img src="./images/inef-myst.jpg" alt="album-pic">
+                    <img class="cover" src="./images/inef-myst.jpg" alt="album-pic">
                     <figcaption>Realeased Nov 24 2009</figcaption>
                     <section>
                         <h3>Track Listing</h3>
@@ -88,7 +150,7 @@
             <div id="album2">
                 <li>
                     <h2>Museum of Consciousness</h2>
-                    <img src="./images/MOC.jpeg" alt="album-pic">
+                    <img class="cover" src="./images/MOC.jpeg" alt="album-pic">
                     <figcaption>Realeased Aug 26 2013</figcaption>
                     <section>
                         <h3>Track Listing</h3>
@@ -107,7 +169,7 @@
             <div id="album3">
                 <li>
                     <h2>Codex VI</h2>
-                    <img src="./images/codex.jpg" alt="album-pic">
+                    <img class="cover" src="./images/codex.jpg" alt="album-pic">
                     <figcaption>Released Dec 8 2017</figcaption>
                     <section>
                         <h3>Track listing</h3>
@@ -127,6 +189,8 @@
                 </div>
         </ol>
     </div>
+    <br></br>
+    <div class="to-top"><a id="return-top" href="#top">^</a></div>
 
     <footer> <small>Copyright &copy; code_zilla 2022 </small></footer>  
 </body>
