@@ -16,19 +16,18 @@
             padding: 10px;
             align-items: flex-end;
             font-size: larger;            
-            width: auto;
+            width: 100%;
             color: midnightblue ;
             
         }
         body {
             display: flex;
             flex-direction: column; 
-            background-image: url(./images/index-background.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
             flex: 1;
             text-align: center;
-            
+            background-color: black;
+            align-items: center;
+            transition: 3s ease-in-out;
         }  
         .navbar {
             border: 4px ridge rgb(131, 85, 85);
@@ -37,7 +36,8 @@
             background-color:  rgba(197, 197, 197, 0.781);
             text-align: center; 
             transition: 0.5s ease-in-out; 
-            object-fit: contain;                   
+            object-fit: contain; 
+                              
 
             
         } 
@@ -54,23 +54,10 @@
             transition: 0.8s ease-in-out;
         }
         .about {
-            display: flex;
-            box-sizing: border-box;
-            border: 1px solid  rgba(102, 51, 153, 0.575);
-            width: fit-content;
-            height: auto;
-            margin-left: 280px;
-            margin-right: 280px;
-            margin-top: 145px;
-            margin-bottom: 50px;
-            text-align: center;          
             
-            background-color: rgba(47, 79, 79, 0.678);
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            position: relative;
-            flex: 1;
-            object-fit: scale-down;
-            
+            position: relative;          
+            color: azure;
             
             
         }
@@ -90,6 +77,7 @@
             object-fit: scale-down;
             margin: auto;
             padding: 4px;
+            border-radius: 16%;
         } 
         footer {
             text-align: center;
@@ -99,6 +87,29 @@
         article {
             display: flex;
             flex-direction: column;
+            margin-bottom: 50px;
+        }
+        #index-logo {
+            display: flex;
+            width: 350px;
+            height: 350px;
+            justify-content: center;
+            transition: 3s linear;
+        }
+        #index-logo__pic {
+            width: auto;
+            height: 400px;
+            z-index: -1;
+            margin-bottom: 0;
+            border-radius: 50%;
+           
+            
+
+        }
+        #index-logo:hover {
+            transition: 4.8s linear;
+            transform: scale(0.01);
+
         }
      
         
@@ -117,6 +128,13 @@
         
         
     </nav>
+
+<div id="index-logo">
+    <img id="index-logo__pic" src="./images/cropped-index.jpg">
+</div>
+<div id="heading">
+    <h1>Home</h1>
+</div>
     
     <div class="about">
         <article>
