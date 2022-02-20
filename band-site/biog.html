@@ -13,6 +13,7 @@
             flex-direction: column;
             text-align: center;
             justify-content: center;
+            align-items: center;
 
         }
         nav {
@@ -23,7 +24,7 @@
             padding: 10px;
             align-items: flex-end;
             font-size: larger;            
-            width: auto;
+            width: 100%;
             color: midnightblue ;
         }
         .navbar {
@@ -46,18 +47,22 @@
             transform: scale(1.5);
             transition: 0.8s ease-in-out;
         }
-       /* #biog-logo {
+        #biog-logo {
             display: flex;
-            box-sizing: border-box ; 
-           
+            box-sizing: border-box ;                      
             align-items: center;
             justify-content: center; 
+            transition: 1.8s linear;
+            
+                     
 
-            "i'll come back for you BARRRRYYYYYYYYYY"
-                   
 
-
-        }*/
+        }
+        #biog-logo:hover {
+            transition: 2.2s ease;
+            transform: rotateY(360deg);
+           
+        }
 
         #heading{
             font-size: xx-large;
@@ -72,7 +77,9 @@
             height: 400px;
             z-index: -1;
             margin-bottom: 0;
+            border-radius: 25%;
         }
+        
         ul {
             list-style: none;
             display: flex;
@@ -85,7 +92,7 @@
             display: flex;
             color: azure;
             flex-direction: column;           
-            box-sizing: border-box;
+            width: 100%;
             gap: 20px 20px;
             
 
@@ -208,6 +215,7 @@
 
     </div>
     <div class="to-top"><a id="return-top" href="#top">^</a></div>
+    <br></br>
 
     <footer> <small>Copyright &copy; code_zilla 2022 </small></footer> 
 </body>
