@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  background-color: rgba(7, 0, 18, 1) ;
+  text-align: center;
+  justify-content: center;
+  transition: 0.8s ease-in-out;
+}
+nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;            
+    padding: 10px;
+    align-items: flex-end;
+    font-size: larger;            
+    width: 100%;
+    color: midnightblue ;
+    
+}
+.navbar {
+    border: 4px ridge rgb(131, 85, 85);
+    padding: 14px;
+    border-radius: 25px;
+    background-color:  rgba(197, 197, 197, 0.781);
+    text-align: center; 
+    transition: 0.5s ease-in-out; 
+    object-fit: contain;                   
+
+    
+} 
+.navbar:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    
+}
+.nav-logo {
+    transition: 0.8s ease-in-out;
+}
+.nav-logo:hover {
+    transform: scale(1.5);
+    transition: 0.8s ease-in-out;
+}
+#heading{
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+
+}
+#discog-logo__pic {
+    width: auto;
+    height: 400px;
+    z-index: -1;
+    margin-bottom: 0;
+    border-radius: 50%;
+    
+}
+#discog-logo:hover{
+    transition: 1.2s cubic-bezier(0, 0.86, 0, 0.85);
+    transform: rotate(720deg);
+    cursor: grab ;
+    
+}
+
+.cover {
+    width: 550px;
+    height: 550px;
+    border-radius: 16%;
+}
+div.album-list {
+    display: flex;
+    gap: 35px;
+}
+ol {
+    color: azure;
+    list-style: none;
+    display: contents;
+
+}
+
+    
+
+.to-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#return-top {
+    
+    color: azure;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 35px;
+    width: 37px;
+    border-radius: 3%;
+}
+
+footer{
+    color: antiquewhite;
+    text-align: center;
+}
