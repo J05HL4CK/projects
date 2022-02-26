@@ -1,0 +1,39 @@
+$thicc: 300px;
+$reef: coral;
+@mixin italic-bold {
+    font-weight: bold;
+    font-style: italic;
+    
+}
+@mixin profile-body {
+     width: $thicc;
+    box-shadow: 1px 1px 5px lightgray;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.movie-card {
+   @include profile-body();
+   img {
+       width: $thicc;
+   }
+   h2 {
+       color: $reef;
+   }
+   button {
+       background: $reef;
+       color: white;
+   }
+   p {
+       @include italic-bold();
+   }
+   movie-info {
+       padding: 10px;
+   }
+
+}
+
+
+
