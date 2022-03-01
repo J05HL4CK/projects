@@ -142,7 +142,7 @@
     }
     a.menu-drop {
         text-decoration: none;
-        color: rgb(255, 255, 255);
+        color: rgba(255, 255, 255, 0);
     }
     a.menu-drop::before {
         color: rgba(255, 255, 255, 0);
@@ -151,9 +151,4 @@
     .menu > li:not(:last-child) {
       border-bottom: 1px solid rgba(255, 255, 255, 0);
     }
-    
-        
-        
-    
-    
-  }
+}
