@@ -192,10 +192,11 @@ a.menu-drop {
 
 .marquee-wrapper .marquee-block {
   width: 12.5em;
-  height: 3.8em;
+  height: 14.8em;
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
+  bottom: 12em;
 }
 
 .marquee-inner {
