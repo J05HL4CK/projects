@@ -8,7 +8,7 @@
   * {
     box-sizing: border-box;
   }
-  
+    /* start top nav-bar */ 
   .top-nav {
     display: flex;
     flex-direction: row;
@@ -97,7 +97,7 @@
     margin-top: 0px;
     transform: rotate(-405deg);
   }
-  
+  /* media breakpoint*/ 
   @media (max-width: 700px) {
     .menu-button-container {
       display: flex;
@@ -151,4 +151,20 @@
     .menu > li:not(:last-child) {
       border-bottom: 1px solid rgba(255, 255, 255, 0);
     }
+
+    /*end media break*/ 
+
+   
+    }
+    /* end top nav-bar*/
+    
+ /*start main-image top*/
+ .main-image_wrapper {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.246);
+ 
+}
+.main-image_wrapper > #main-image {
+  width: 100%;
+  z-index: -1;
 }
