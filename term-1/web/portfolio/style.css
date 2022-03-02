@@ -169,4 +169,73 @@ a.menu-drop {
   z-index: -1;
 }
 
+/*start marquee*/
+.main-content #portfolio-content {
+  display: flex;
+  justify-content: center;
+  background-color: #4CD4CB;
+}
+
+.main-content > #portfolio-content {
+  font-family: "Montserrat" sans-serif;
+}
+
+.marquee-wrapper .container {
+  overflow: hidden;
+  margin: 0 auto !important;
+  text-align: center;
+}
+
+.marquee-inner span {
+  height: 50%;
+}
+
+.marquee-wrapper .marquee-block {
+  width: 400px;
+  height: 1500px;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.marquee-inner {
+  display: block;
+  height: 150%;
+  width: 200px;
+  position: absolute;
+}
+
+.marquee-item p {
+  font-size: 1.6em;
+  font-family: "Montserrat" sans-serif;
+}
+
+.marquee-inner.to-left {
+  animation: marqueeTop 25s linear infinite;
+}
+
+.marquee-item {
+  display: flex;
+  transition: all 0.2s ease-out;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes marqueeTop {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -100%;
+  }
+}
+@keyframes marqueeBottom {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
