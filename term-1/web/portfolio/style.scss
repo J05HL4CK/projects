@@ -189,8 +189,8 @@
   height:50%;
 }
 .marquee-wrapper .marquee-block{
-  width: 400px;
-  height: 40px;
+  width: 12.5em;
+  height: 3.8em;
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
@@ -209,7 +209,7 @@
   font-family: "Montserrat" sans-serif;
 }
 .marquee-inner.to-left{
-  animation: marqueeTop 25s linear infinite;
+  animation: marqueeTop 1s linear infinite;
 }
 
 .marquee-item{ 

@@ -191,8 +191,8 @@ a.menu-drop {
 }
 
 .marquee-wrapper .marquee-block {
-  width: 400px;
-  height: 1500px;
+  width: 12.5em;
+  height: 3.8em;
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
@@ -211,7 +211,7 @@ a.menu-drop {
 }
 
 .marquee-inner.to-left {
-  animation: marqueeTop 25s linear infinite;
+  animation: marqueeTop 1s linear infinite;
 }
 
 .marquee-item {
