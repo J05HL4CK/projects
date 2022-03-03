@@ -180,10 +180,16 @@ a.menu-drop {
   font-family: "Montserrat" sans-serif;
 }
 
+.marquee-wrapper {
+  position: relative;
+  bottom: 19%;
+}
+
 .marquee-wrapper .container {
   overflow: hidden;
   margin: 0 auto !important;
   text-align: center;
+  height: 22%;
 }
 
 .marquee-inner span {
@@ -201,7 +207,6 @@ a.menu-drop {
 
 .marquee-inner {
   display: block;
-  height: 150%;
   width: 200px;
   position: absolute;
 }

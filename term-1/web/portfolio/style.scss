@@ -179,11 +179,16 @@
 .main-content > #portfolio-content {
   font-family: "Montserrat" sans-serif;
 }
+.marquee-wrapper {
+  position: relative;
+  bottom: 19%;
+}
 
 .marquee-wrapper .container{
   overflow:hidden;
   margin:0 auto !important;
   text-align:center;
+  height: 22%;
 }
 .marquee-inner span{
   height:50%;
@@ -198,8 +203,7 @@
   
 }
 .marquee-inner{
-  display: block;
-  height: 150%;
+  display: block;  
   width:200px;
   position: absolute;
   
